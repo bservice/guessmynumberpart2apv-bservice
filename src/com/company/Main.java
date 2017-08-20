@@ -11,7 +11,7 @@ public class Main {
            
         guessCount = 0;
         System.out.println();
-        System.out.print("What is your first guess? ");
+        System.out.print("What is your guess? ");
         while (true) {
             usersGuess = TextIO.getInt();  
             guessCount++;
